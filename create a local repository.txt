@@ -121,3 +121,38 @@ press "esc"
 write ":wq"
 then press enter
 
+
+-------------------------------------------------------------------------------------------
+
+reverting to a [revious version using fetch
+
+
+Nikhil M@DESKTOP-KD8P6GK MINGW64 /d/nikhil.github.io ((50a45a6...))
+$ git fetch origin a15d8ee971ec7f8dbd7118ed1a56b3b19ee10b85
+From https://github.com/Nikhil-lab/nikhil.github.io
+ * branch            a15d8ee971ec7f8dbd7118ed1a56b3b19ee10b85 -> FETCH_HEAD
+
+Nikhil M@DESKTOP-KD8P6GK MINGW64 /d/nikhil.github.io ((50a45a6...))
+$ git checkout FETCH_HEAD
+Previous HEAD position was 50a45a6 not required go back
+HEAD is now at a15d8ee error message exit commands added
+
+Nikhil M@DESKTOP-KD8P6GK MINGW64 /d/nikhil.github.io ((a15d8ee...))
+$ git checkout -b "newBranch"
+Switched to a new branch 'newBranch'
+
+
+Nikhil M@DESKTOP-KD8P6GK MINGW64 /d/nikhil.github.io (newBranch)
+$ git push --all
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'newBranch' on GitHub by visiting:
+remote:      https://github.com/Nikhil-lab/nikhil.github.io/pull/new/newBranch
+remote:
+To https://github.com/Nikhil-lab/nikhil.github.io.git
+ * [new branch]      newBranch -> newBranch
+
+Nikhil M@DESKTOP-KD8P6GK MINGW64 /d/nikhil.github.io (newBranch)
+$
+
+
