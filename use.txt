@@ -30,3 +30,37 @@ Note:create a new repository in GitHub (remote repository)
 7. git push origin master 
 
 ->>now we can push local file onto a remote repository
+
+
+more info
+
+git add .    //adds all the files in the folder
+->> will stage all the files 
+
+git add *.html   //all html files are added
+
+
+
+
+creating branch
+
+$ git branch MyBranch
+$ git checkout MyBranch
+-->> Switched to branch MyBranch
+
+$ git add .
+
+$ git commit -m "Mybranch Commit 1"     //saved in local repository
+
+$ git push origin MyBranch          // pushed to remote branch
+
+
+$ git checkout master   
+$ git status
+On branch master
+-->> to check which branch
+
+
+to merge the branch data
+
+$ git merge MyBranch
