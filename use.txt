@@ -1,0 +1,110 @@
+                                        GIT & GITHUB 
+Install git
+
+open gitbash 
+
+* git --version
+
+* git congfig --help
+
+mkdir newFolder  //to create a folder/directory
+
+cd newFolder
+
+1. git init  // to initialize the directory
+2. git status
+--> no commit     //means we have not committed thru git tool
+
+3. git add demo.txt
+
+4. git commit -m "commiting a text file"
+
+5. git config --global user.username Nikhil-lab        //get is successfully linked to github account (Nikhil-lab is username)
+
+Note:create a new repository in GitHub (remote repository)
+
+6> git remote origin https://github.com/Nikhil-lab/nikhil.github.io
+ 
+->> now local repository and remote repository are linked !!!!
+
+7. git push origin master 
+
+->>now we can push local file onto a remote repository
+
+
+more info
+
+git add .    //adds all the files in the folder
+->> will stage all the files 
+
+git add *.html   //all html files are added
+
+creating branch
+
+$ git branch MyBranch
+$ git checkout MyBranch
+-->> Switched to branch MyBranch
+
+$ git add .
+
+$ git commit -m "Mybranch Commit 1"     //saved in local repository
+
+$ git push origin MyBranch          // pushed to remote branch
+
+$ git checkout master   
+$ git status
+On branch master
+-->> to check which branch
+
+
+to merge the branch data
+
+$ git merge MyBranch
+
+$ git push origin MyBranch          // pushed to remote branch
+
+-----------------------------------------------------------------------------------------------------------
+
+create a new folder in system (D:\test)
+
+$ git init      //creating local repository
+
+$ git remote add origin https://github.com/Nikhil-lab/nikhil.git   //linked to remote repository
+
+as shown in cmd promt------------------------------------->>
+
+Nikhil M@DESKTOP-KD8P6GK MINGW64 /d/test (master)
+$ git remote add origin https://github.com/Nikhil-lab/nikhil.git
+
+Nikhil M@DESKTOP-KD8P6GK MINGW64 /d/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Nikhil M@DESKTOP-KD8P6GK MINGW64 /d/test (master)
+$ touch test.txt
+
+Nikhil M@DESKTOP-KD8P6GK MINGW64 /d/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+$ git pull origin master --allow-unrelated-histories
+
+
+
+
+
+<---------------------------------------All done------------------------------------------------------------------>
+BASIC GIT Commands
