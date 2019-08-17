@@ -52,4 +52,19 @@ $ git add .
 
 $ git commit -m "Mybranch Commit 1"     //saved in local repository
 
+
 $ git push origin MyBranch          // pushed to remote branch
+
+$ git push origin MyBranch          // pushed to remote branch
+
+
+$ git checkout master   
+$ git status
+On branch master
+-->> to check which branch
+
+
+to merge the branch data
+
+$ git merge MyBranch
+
