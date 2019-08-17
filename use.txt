@@ -64,3 +64,7 @@ On branch master
 to merge the branch data
 
 $ git merge MyBranch
+
+
+
+<---------------------------------------All done------------------------------------------------------------------>
