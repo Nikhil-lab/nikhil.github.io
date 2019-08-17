@@ -1,0 +1,32 @@
+
+Install git
+
+open gitbash 
+
+* git --version
+
+* git congfig --help
+
+mkdir newFolder  //to create a folder/directory
+
+cd newFolder
+
+1. git init  // to initialize the directory
+2. git status
+--> no commit     //means we have not committed thru git tool
+
+3. git add demo.txt
+
+4. git commit -m "commiting a text file"
+
+5. git config --global user.username Nikhil-lab        //getis successfully linked to github account (Nikhil-lab is username)
+
+Note:create a new repository in GitHub (remote repository)
+
+6> git remote origin https://github.com/Nikhil-lab/nikhil.github.io
+ 
+->> now local repository and remote repository are linked !!!!
+
+7. git push origin master 
+
+->>now we can push local file onto a remote repository
