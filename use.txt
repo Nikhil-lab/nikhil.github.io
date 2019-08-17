@@ -30,3 +30,11 @@ Note:create a new repository in GitHub (remote repository)
 7. git push origin master 
 
 ->>now we can push local file onto a remote repository
+
+
+more info
+
+git add .    //adds all the files in the folder
+->> will stage all the files 
+
+git add *.html   //all html files are added
