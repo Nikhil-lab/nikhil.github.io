@@ -75,4 +75,4 @@ $ git push origin MyBranch          // pushed to remote branch
 
 
 <---------------------------------------All done------------------------------------------------------------------>
-
+BASIC GIT Commands
