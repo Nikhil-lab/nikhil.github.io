@@ -52,6 +52,7 @@ $ git add .
 
 $ git commit -m "Mybranch Commit 1"     //saved in local repository
 
+<<<<<<< HEAD
 $ git push origin MyBranch          // pushed to remote branch
 
 
@@ -64,3 +65,6 @@ On branch master
 to merge the branch data
 
 $ git merge MyBranch
+=======
+$ git push origin MyBranch          // pushed to remote branch
+>>>>>>> MyBranch
