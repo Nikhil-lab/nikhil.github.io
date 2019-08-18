@@ -1,0 +1,7 @@
+$ git init          //initialize Local git repository
+$ git add <file>    // add file(s) to index
+$ git status        //check status of working tree
+$ git commit         //commit changes to index
+$ git push           //push to Remote Repository
+$ git pull           //Pull Latest from remote repository
+$ git clone          //clone Repository Into A new Directory
