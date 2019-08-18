@@ -6,6 +6,7 @@ $ git push           //push to Remote Repository
 $ git pull           //Pull Latest from remote repository
 $ git clone          //clone Repository Into A new Directory
 
+$ git remote add origin url    //to link to remote repository (url)
 
 $ git branch -d <Branchname>   // deleting a branch after merging
 
@@ -13,6 +14,10 @@ $ git branch -D <Branchname>   // deleting a branch **without** merging         
 
 
 $ git commit -a -m "commit message"  // both git add & git commit in a single command ********
+
+$ git push origin master            //pushing to master
+
+
 
 
 
