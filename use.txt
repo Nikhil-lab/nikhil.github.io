@@ -23,7 +23,7 @@ cd newFolder
 
 Note:create a new repository in GitHub (remote repository)
 
-6> git remote origin https://github.com/Nikhil-lab/nikhil.github.io
+6> git remote add origin https://github.com/Nikhil-lab/nikhil.github.io
  
 ->> now local repository and remote repository are linked !!!!
 
