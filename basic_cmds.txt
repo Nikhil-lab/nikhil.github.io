@@ -5,3 +5,25 @@ $ git commit         //commit changes to index
 $ git push           //push to Remote Repository
 $ git pull           //Pull Latest from remote repository
 $ git clone          //clone Repository Into A new Directory
+
+
+$ git branch -d <Branchname>   // deleting a branch after merging
+
+$ git branch -D <Branchname>   // deleting a branch **without** merging          data with branch will be lost
+
+Deleting a branch
+
+Nikhil M@DESKTOP-KD8P6GK MINGW64 /d/nikhil.github.io (master)
+$ git branch --merged                                                                           //checking if branches are merged
+* master
+  newBranch
+  testBranch
+
+Nikhil M@DESKTOP-KD8P6GK MINGW64 /d/nikhil.github.io (master)
+$ git branch -d testBranch
+Deleted branch testBranch (was 36cb137).
+
+Nikhil M@DESKTOP-KD8P6GK MINGW64 /d/nikhil.github.io (master)
+$ git branch --merged
+* master
+  newBranch
